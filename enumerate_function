@@ -1,0 +1,3 @@
+pets = ['elephant', 'mouse', 'peacock','hen']
+for idx, wildlife in enumerate(pets):
+    print('#%d: %s' % (idx + 1, wildlife))
