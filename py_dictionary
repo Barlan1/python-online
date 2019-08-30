@@ -1,0 +1,12 @@
+ 
+a= {'mouse': 'cunning', 'snake': 'venom'}
+print(a['mouse'])
+print('mouse' in a)
+a['bird']= 'air'
+print(a['bird'])
+#print(a['monkey'] /error
+print(a.get('monkey','N/A'))
+print(a.get('bird','N/A'))
+print(a.get('snake','N/A'))
+del a['bird']
+print(a.get('fish','N/A'))
