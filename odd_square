@@ -1,0 +1,5 @@
+nums=[0,1,2,3,4]
+ 
+ 
+odd_square=[x**2 for x in nums if x % 2 ==1]
+print(odd_square)
