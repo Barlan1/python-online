@@ -1,0 +1,3 @@
+class Myclass:
+ x=4
+print(Myclass)
