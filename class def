@@ -1,0 +1,7 @@
+class man:
+ def __init__(self, name, year):
+  self.name= name
+  self.year = year
+p1= man("ajest", 10)
+print (p1.name)
+print(p1.year)
