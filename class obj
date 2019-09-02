@@ -1,0 +1,9 @@
+class man:
+ def __init__(self, name, year,subject):
+  self.name= name
+  self.year = year
+  self.subject= ['MA','ph','chem']
+p1= man("ajest", 10, 'MA')
+print (p1.name)
+print(p1.year)
+print(p1.subject)
