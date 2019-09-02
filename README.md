@@ -1,3 +1,3 @@
 # python-online
-basics
+basics:
 its about basics of python 
