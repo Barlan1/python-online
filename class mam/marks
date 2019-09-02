@@ -1,0 +1,10 @@
+class man:
+ def __init__(self, name,marks,subject):
+  self.name= name
+  self.marks = marks
+  self.subject= subject
+  subject= ['MA','ph','chem']
+p1= man("ajest", 10, 'MA')
+p2= man('vijay',22,'Chem')
+print p1.name,p1.subject,p1.marks
+print p2.name,p2.subject,p2.marks
